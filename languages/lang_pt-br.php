@@ -906,7 +906,12 @@ $strings["noti_memberactivation5"] = "Once you have typed the information above 
 
 //BEGIN CORDENAÇÃO
 $string["cord_relacionamento"] = "Jane T. da Costa Diehl";
+$string["cord_relacionamento_mail"] = "jane@fnde.gov.br";
+$string["cord_relacionamento_fone"] = "4023";
+
 $string["ger_relacionamento"] = "Rogério de Souza Leitão";
+$string["ger_relacionamento_mail"] = "rogeriol@fnde.gov.br";
+$string["ger_relacionamento_fone"] = "4584";
 //END CORDENAÇÃO
 
 //BEGIN email project users mod

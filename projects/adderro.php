@@ -446,13 +446,13 @@ $block1->closeRow();
 $block1->openRow();
 $block1->cellRow("" . $strings["coor_r_a"] . "","","","","","1");
 $block1->cellRow("","","","","","3");
-$block1->cellRow("<a href=\"mailto:jane@fnde.gov.br\">" . strtoupper($string["cord_relacionamento"]) . "</a> Telefone: 4023","","","","","");
+$block1->cellRow("<a href=\"mailto:" . $string["cord_relacionamento_mail"] . "\">" . strtoupper($string["cord_relacionamento"]) . "</a>       Telefone: " . $string["cord_relacionamento_fone"],"","","","","");
 $block1->closeRow();
 
 $block1->openRow();
 $block1->cellRow("" . $strings["resp_relaciona"] . "","","","","","1");
 $block1->cellRow("","","","","","3");
-$block1->cellRow("<a href=\"mailto:rogeriol@fnde.gov.br\">" . strtoupper($string["ger_relacionamento"]) . "</a> Telefone: 4584","","","","","");
+$block1->cellRow("<a href=\"mailto:" . $string["ger_relacionamento_mail"] . "\">" . strtoupper($string["ger_relacionamento"]) . "</a>     Telefone: " . $string["ger_relacionamento_fone"],"","","","","");
 $block1->closeRow();
 
 $block1->openRow();

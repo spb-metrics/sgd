@@ -804,12 +804,12 @@ if ($id != "") {
 				
 				<tr class='$class' onmouseover=\"this.style.backgroundColor='" . $blockz1->highlightOn . "'\" onmouseout=\"this.style.backgroundColor='" . $highlightOff . "'\">
 					<th nowrap class='FormLabel' align='left'>&nbsp;&nbsp;&nbsp; " . $strings["coor_r_a"] . " :</th>
-					<td align='right'>&nbsp;</td><td >&nbsp;<a href=\"mailto:jane@fnde.gov.br\">" . strtoupper($string["cord_relacionamento"]) . "</a>       Telefone: 4023</td>
+                    <td align='right'>&nbsp;</td><td >&nbsp;<a href=\"mailto:" . $string["cord_relacionamento_mail"] . "\">" . strtoupper($string["cord_relacionamento"]) . "</a>       Telefone: " . $string["cord_relacionamento_fone"] . "</td>
 				</tr>";
 	/*".$nome_corra ." ".$tel_corra ."*/
 	echo "<tr class='$class' onmouseover=\"this.style.backgroundColor='" . $blockz1->highlightOn . "'\" onmouseout=\"this.style.backgroundColor='" . $highlightOff . "'\">
 					<th nowrap class='FormLabel' align='left'>&nbsp;&nbsp;&nbsp; " . $strings["resp_relaciona"] . " :</th>
-					<td align='right'>&nbsp;</td><td >&nbsp;<a href=\"mailto:rogeriol@fnde.gov.br\">" . strtoupper($string["ger_relacionamento"]) . "</a>     Telefone: 4584</td>
+                    <td align='right'>&nbsp;</td><td >&nbsp;<a href=\"mailto:" . $string["ger_relacionamento_mail"] . "\">" . strtoupper($string["ger_relacionamento"]) . "</a>     Telefone: " . $string["ger_relacionamento_fone"] . "</td>					
 				</tr>";
 	//".$nome_g_rel." ".$tel_g_rel ."
 	echo "<tr class='$class' onmouseover=\"this.style.backgroundColor='" . $blockz1->highlightOn . "'\" onmouseout=\"this.style.backgroundColor='" . $highlightOff . "'\">
