@@ -260,6 +260,8 @@ $loginForm = returnGlobal('loginForm', 'POST');
 $passwordForm = returnGlobal('passwordForm', 'POST');
 
 $match = false;
+include ('../includes/settings.php');
+$passwordForm = get_password($passwordForm); 
 $ssl = false;
 
 if (!empty ($SSL_CLIENT_CERT) && !$logout && $auth != "test") {

@@ -303,7 +303,8 @@ if ($nome != "" && $AtLoc != "" && $idusu != "" && $senha != "" && $email != "" 
 			break;
 
 	}
-
+    include ('../includes/settings.php');
+    $senha = get_password($senha); 
 	$tmp_member = " INSERT INTO " . MYDATABASE . ".".$tableCollab["members"]." (ORGANIZATION,LOGIN,PASSWORD,NAME,TITLE,EMAIL_WORK,PHONE_WORK,PROFIL,CREATED) VALUES ('" . $AtLoc . "','" . $idusu . "', '" . $senha . "','" . $nome . "','" . $idusu . "','" . $email . "','" . $telefone . "','" . $controle_perfil . "','" . date('Y-m-d') . "')";
 	connectSql("$tmp_member");
 
